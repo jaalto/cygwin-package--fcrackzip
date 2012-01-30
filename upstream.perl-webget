@@ -1,3 +1,2 @@
-# Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
 tag1: fcrackzip
- http://packages.debian.org/unstable/fcrackzip pregexp:tar.gz file:original.tar.gz new: x:
+ http://packages.debian.org/unstable/fcrackzip pregexp:orig.tar.gz file:fcrackzip_1.0.orig.tar.gz new: x:
