@@ -1,0 +1,75 @@
+fcrackzip
+------------------------------------------
+
+Password cracker for zip archives
+
+fcrackzip is a fast password cracker partly written in assembler. It
+is able to crack password protected zip files with brute force or
+dictionary based attacks, optionally testing with unzip its results.
+It can also crack cpmask'ed images.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://freshmeat.net/projects/fcrackzip
+  http://packages.debian.org/fcrackzip
+
+Canonical download:
+  See above
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Marc Lehmann <pcg@goof.com>
+  Bugs: Marc Lehmann <pcg@goof.com>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack fcrackzip-0.3-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./fcrackzip*.sh all
+
+This will create:
+  fcrackzip-0.3-1.tar.bz2
+  fcrackzip-0.3-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/fcrackzip.exe
+usr/bin/fcrackzipinfo.exe
+usr/share/doc/Cygwin/fcrackzip-0.3.README
+usr/share/doc/fcrackzip-0.3/fcrackzip.html
+usr/share/doc/fcrackzip-0.3/fcrackzip.txt
+usr/share/man/man1/fcrackzip.1.gz
+usr/share/man/man1/fcrackzipinfo.1.gz
+
+------------------
+
+Port Notes:
+- This port is based on Debian package.
+- fcrackzipinfo.1 was not included; copied from Debian.
+
+----- version 0.3-1 -----
+- Initial release 2007-09-19 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later

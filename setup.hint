@@ -1,0 +1,7 @@
+sdesc: "Password cracker for zip archives"
+ldesc: "A fast password cracker partly written in assembler. It
+is able to crack password protected zip files with brute force or
+dictionary based attacks, optionally testing with unzip its results.
+It can also crack cpmask'ed images."
+category: Utils
+requires: cygwin
